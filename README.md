@@ -1,12 +1,53 @@
-# React + Vite
+# 🍳 Receitas de Culinária - Frontend e Backend Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte do sistema **Receitas de Culinária**, um projeto desenvolvido para disponibilizar receitas gastronômicas em uma interface simples e intuitiva.  
+O sistema é dividido em duas partes: **Frontend (React)** e **Backend (Node.js/Express)**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto é construído utilizando uma stack moderna:
 
-## Expanding the ESLint configuration
+### **Frontend**
+- **Framework:** React (com Vite) - Biblioteca JavaScript para construção de interfaces dinâmicas.
+- **Linguagem:** JavaScript.
+- **HTTP Client:** Axios - Para comunicação com o backend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Backend**
+- **Runtime:** Node.js.
+- **Framework:** Express - Para criação do servidor e gerenciamento de rotas.
+- **Banco de Dados inicial:** Arquivo JSON (simulação).
+- **Middleware:** CORS - Para permitir a comunicação entre frontend e backend.
+
+## ✨ Funcionalidades Implementadas
+
+*   **Listagem de Receitas:** O usuário pode visualizar uma lista de receitas disponíveis.
+*   **Consumo de API:** O frontend consome os dados expostos pelo backend.
+*   **Arquitetura Separada:** Projeto dividido entre frontend e backend para facilitar manutenção e expansão futura.
+
+## 📂 Estrutura de Pastas
+
+# 🍳 Receitas de Culinária - Frontend e Backend Web
+
+Este repositório contém o código-fonte do sistema **Receitas de Culinária**, um projeto desenvolvido para disponibilizar receitas gastronômicas em uma interface simples e intuitiva.  
+O sistema é dividido em duas partes: **Frontend (React)** e **Backend (Node.js/Express)**.
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto é construído utilizando uma stack moderna:
+
+### **Frontend**
+- **Framework:** React (com Vite) - Biblioteca JavaScript para construção de interfaces dinâmicas.
+- **Linguagem:** JavaScript.
+- **HTTP Client:** Axios - Para comunicação com o backend.
+
+### **Backend**
+- **Runtime:** Node.js.
+- **Framework:** Express - Para criação do servidor e gerenciamento de rotas.
+- **Banco de Dados inicial:** Arquivo JSON (simulação).
+- **Middleware:** CORS - Para permitir a comunicação entre frontend e backend.
+
+## ✨ Funcionalidades Implementadas
+
+*   **Listagem de Receitas:** O usuário pode visualizar uma lista de receitas disponíveis.
+*   **Consumo de API:** O frontend consome os dados expostos pelo backend.
+*   **Arquitetura Separada:** Projeto dividido entre frontend e backend para facilitar manutenção e expansão futura.
